@@ -1,0 +1,269 @@
+html {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.navbar {
+  z-index: 1000;
+}
+
+.collapse {
+  justify-content: end;
+}
+
+.b-r {
+  border-radius: 20px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+}
+
+.navbar .navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link:hover {
+  color: rgba(165, 66, 240, 0.704) !important;
+}
+
+.navbar-brand:hover {
+  color: rgba(165, 66, 240, 0.704) !important;
+}
+
+.btn-custom {
+  border-radius: 25px;
+  background-color: rgba(165, 66, 240, 0.704) !important;
+  color: #fff !important;
+}
+
+.btn-custom:hover {
+  color: #000000 !important;
+}
+
+.modal {
+  z-index: 2000;
+}
+
+.button-1 {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.comments-color {
+  color: #ffffff;
+}
+
+.hero-section {
+  background-color: #f8f9fa;
+}
+
+.hero-img {
+  max-width: 100%;
+  height: 450px;
+  margin-right: 500px;
+  position: absolute;
+}
+
+.application-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.android-ios {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .android-ios {
+    justify-content: center;
+  }
+}
+
+.store {
+  width: 170px;
+  justify-content: start;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.content {
+  text-align: center;
+}
+
+.circle {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: rgba(165, 66, 240, 0.704);
+}
+
+@media (max-width: 992px) {
+  .iphone {
+    margin-left: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .iphone {
+    margin-top: 70px;
+    margin-right: 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    height: 660px;
+  }
+
+  .hero-img {
+    height: 300px;
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .iphone {
+    margin-top: 150px;
+  }
+
+  .circle {
+    display: none;
+  }
+}
+
+.aside {
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(59, 51, 238, 1) 55%,
+    rgba(149, 28, 227, 1) 78%
+  );
+  width: 100%;
+  margin-top: 0;
+}
+
+@media (max-width: 576px) {
+  .features .iphone {
+    padding-top: 50px;
+  }
+}
+
+.icon-feature {
+  font-size: 64px;
+  box-sizing: border-box;
+}
+
+.text-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(59, 51, 238, 1) 55%,
+    rgba(149, 28, 227, 1) 78%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.circle-2 {
+  justify-content: start !important;
+}
+
+.siri {
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .siri {
+    margin-top: 200px !important;
+  }
+}
+
+.design-header {
+  font-size: 56px;
+}
+
+.siri-image {
+  width: 100%;
+  height: auto;
+}
+
+.application-paragraph {
+  font-size: 20px;
+}
+
+.cta {
+  background-image: url(/assets/background.png);
+  background-size: cover;
+  background-position: center center;
+  width: auto !important;
+  height: 100%;
+}
+
+
+.container-photo {
+  padding-top: 200px !important;
+  padding-bottom: 200px !important;
+}
+
+.cta a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 15px 22px 15px 22px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.cta a:hover {
+  background-color: white;
+  color: black;
+}
+
+.app-now {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(59, 51, 238, 1) 55%,
+    rgba(149, 28, 227, 1) 78%
+  ) !important;
+}
+
+.container-app-now {
+  align-items: center;
+  justify-content: center;
+}
+
+.container-app-now div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(75, 65, 115);
+  color: #fff;
+}
+
+footer {
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.modal-header {
+  background: linear-gradient(
+    90deg,
+    rgb(73, 65, 233) 55%,
+    rgba(149, 28, 227, 1) 78%
+  ) !important;
+}
