@@ -107,14 +107,14 @@ body {
 
 @media (max-width: 576px) {
   .hero-section {
-    height: 660px;
+    height: auto;
   }
 
   .hero-img {
     height: 300px;
     margin-top: 10px;
     position: relative;
-  }
+  } 
 
   .iphone {
     margin-top: 150px;
@@ -252,4 +252,17 @@ footer a {
     rgb(73, 65, 233) 55%,
     rgba(149, 28, 227, 1) 78%
   ) !important;
+}
+
+
+@media (max-width: 576px) {
+  .hero-section {
+    height: auto;
+  }
+
+  .hero-img {
+    margin-top: 10px;
+    position: relative;
+    height: 300px;
+  }
 }
