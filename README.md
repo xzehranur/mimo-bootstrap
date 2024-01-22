@@ -1,0 +1,3 @@
+- Responsive design using HTML, CSS, and Bootstrap.
+- Utilizes modals for enhanced user interaction.
+- Feedback form integrated to receive input via email.
