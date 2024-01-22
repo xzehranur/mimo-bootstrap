@@ -17,10 +17,6 @@ body {
   justify-content: end;
 }
 
-.b-r {
-  border-radius: 20px;
-}
-
 .navbar {
   position: sticky;
   top: 0;
@@ -50,15 +46,6 @@ body {
 
 .modal {
   z-index: 2000;
-}
-
-.button-1 {
-  width: 100%;
-  border-radius: 20px;
-}
-
-.comments-color {
-  color: #ffffff;
 }
 
 .hero-section {
@@ -204,7 +191,6 @@ body {
   width: auto !important;
   height: 100%;
 }
-
 
 .container-photo {
   padding-top: 200px !important;
