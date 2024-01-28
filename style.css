@@ -161,7 +161,7 @@ body {
   justify-content: start !important;
 }
 
-.siri {
+.section {
   width: 100%;
 }
 
@@ -175,7 +175,7 @@ body {
   font-size: 56px;
 }
 
-.siri-image {
+.section-image {
   width: 100%;
   height: auto;
 }
